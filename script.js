@@ -53,7 +53,7 @@ function generatePassword() {
 for (var i = 0; i < passwordLength; i++) {
 var password = password 
 }
-]
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
