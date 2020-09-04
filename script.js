@@ -2,6 +2,11 @@
 
 var generateBtn = document.querySelector("#generate");
 
+var numbers = ["123456789"];
+var lowerCases = ["abcdefghijklmnopqrstuvwxyz"];
+var upperCases = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+var special = ["!@#$%^&*~+{/;}]"]
+
     
 
 // Write password to the #password input
@@ -12,24 +17,45 @@ function writePassword() {
 
   passwordText.value = password;
 
+    
 }
 
+function generatePassword() {
+    var passwordLength = prompt("Please choose how many characters you would like for your password between 8 and 128");
+
+    if (passwordLength >= 8 && passwordLength <= 128) {
+        alert("Thanks. The amount of characters in your password will be" + passwordLength);
+    }
+
+    
+ else {
+            alert("Your number must be between 8 and 128");
+            generatePassword();
+        }
+    
+        
+    var numbers = confirm("Do you want numbers in your password?");
+
+    console.log(numbers);
+  
+    var lowerCases = confirm("Do you want lowercases in your password?");
+
+    console.log(lowerCases);
+  
+    var upperCases = confirm("Do you want uppercases in your password?");
+    console.log(upperCases);
+
+    var special = confirm("Do you want special characters in your password?");
+    console.log(special);
+}
+
+
+for (var i = 0; i < passwordLength; i++) {
+var password = password 
+}
+]
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 
-// Prompts that come up after you click generate password
-function generatePassword() {
-    var passwordLength = prompt("Please enter the number of characters you want for you new password.  It must be more than 12 but less than 128.");
-  
-    var numbers = confirm("Do you want numbers in your password?");
-  
-    var lowerCases = confirm("Do you want lowercases in your password?");
-  
-    var upperCases = confirm("Do you want uppercases in your password?");
-  
-    var special = confirm("Do you want special characters in your password?");
-  
-    // this is a minimum count for numbers, lowerCases, upperCases & specialCharacters
-    var minimumCount = 0;
-}
+
