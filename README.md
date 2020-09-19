@@ -1,5 +1,7 @@
 # PassGenCode
 
+https://longhuynh741.github.io/PassGenCode/ <hr>
+
 This Project is aimed towards building upon JavaScript foundations. The completion of this project will require knowledge of several Javascript principles including: Arrays, for loops, if/else statements, and variable creations. You will be tasked with making a random password generator. The generator must be able to follow these criteria:
 
 
@@ -31,6 +33,7 @@ Once the files are in your code editor you can start to edit the code.
 
 Use VSS code editor to make changes where neccessary. For this project, changes should only be made to the JavaScript file. Make sure the code functions not only on your local branch, but on the published Github website as well. 
 
+Example: <img src="images\2pass.PNG" alt="passwordGenerator">
 
 # Credits
 
